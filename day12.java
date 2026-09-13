@@ -26,7 +26,6 @@ public class Main {
         System.out.print("Masukkan grade: ");
         char grade = input.next().charAt(0);
         
-        // Membersihkan newline buffer sebelum membaca input String berikutnya
         input.nextLine(); 
         
         System.out.print("Masukkan hobi: ");
